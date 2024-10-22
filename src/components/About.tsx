@@ -5,12 +5,12 @@ const About = () => {
     <div id='about' className='flex justify-center items-center flex-col w-full bg-yellow-900 border-b-[0.5rem] border-b-amber-200'>
         <h1 className='text-5xl font-bold max-[400px]:text-4xl text-white m-5'>ABOUT<span className='text-yellow-400'> ME</span></h1>
       <center>
-        <p className='text-[1.8rem] max-[850px]:text-[1.5rem] w-[90%] m-3 font-sans font-bold max-[750px]:text-xl max-[570px]:text-[1.2rem] max-[400px]:text-[1.1rem] max-[400px]:'>I'm Areeb, a web designer and developer with a passion for creating functional and visually engaging digital experiences. I enjoy working on diverse projects. <span className='max-[400px]:hidden'>like Areebixbeat, a platform for sharing music, and Areebixweather, a weather-checking site.</span>  My focus is on blending creativity with technology, and I'm always looking to learn and grow in web development and design.
+        <p className='text-[1.8rem] max-[850px]:text-[1.5rem] w-[90%] m-3 font-sans font-bold max-[750px]:text-xl max-[570px]:text-[1.2rem] max-[400px]:text-[1.1rem] max-[400px]:'>I am Areeb a web designer and developer with a passion for creating functional and visually engaging digital experiences. I enjoy working on diverse projects. <span className='max-[400px]:hidden'>like Areebixbeat, a platform for sharing music, and Areebixweather, a weather-checking site.</span>  My focus is on blending creativity with technology, and I am always looking to learn and grow in web development and design.
     </p>
       </center>
       <center>
         <p className='text-[1.8rem] max-[850px]:text-[1.5rem] w-[90%] m-5 mb-10 font-sans font-bold max-[750px]:text-xl max-[570px]:text-[1.2rem] max-[400px]:text-[1.1rem] max-[400px]:'>
-        Currently, I'm diving deeper into new technologies like TypeScript and Next.js to expand my skill set. I also have experience with tools like Node.js and am working on projects. <span className='max-[400px]:hidden'>like a CV generator and a YouTube channel about Pakistan's updates and facts.</span>  My goal is to keep evolving in the tech space, staying ahead of trends, and creating impactful solutions.</p>
+        Currently, I am diving deeper into new technologies like TypeScript and Next.js to expand my skill set. I also have experience with tools like Node.js and am working on projects. <span className='max-[400px]:hidden'>like a CV generator and a YouTube channel about Pakistans updates and facts.</span>  My goal is to keep evolving in the tech space, staying ahead of trends, and creating impactful solutions.</p>
       </center>
     </div>
   )

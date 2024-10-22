@@ -7,7 +7,12 @@ const Header = () => {
 
   const toggleMenu = () => {
     {
-      !isMenuOpen? setIsMenuOpen(true) : setIsMenuOpen(false)
+      if(isMenuOpen==false){
+        setIsMenuOpen(true);
+      }
+      else{
+        setIsMenuOpen(false);
+      }
     }
   };
 
