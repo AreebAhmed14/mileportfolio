@@ -1,0 +1,167 @@
+import React from "react";
+import Image from "next/image";
+import calc from "../public/static/calc.jpg";
+import weather from "../public/static/weather.jpg";
+import table from "../public/static/table.jpg";
+import music from "../public/static/music.jpg";
+import tic from "../public/static/tic.jpg";
+import expanse from "../public/static/expanse.jpg";
+import cv from "../public/static/cv.jpg";
+import edu from "../public/static/edu.jpg";
+import wing from "../public/static/wing.jpg";
+import Link from "next/link";
+
+const Projects = () => {
+  return (
+    <div
+      id="projects"
+      className="flex justify-center items-center border-b-[0.5rem] border-b-amber-200 flex-col bg-yellow-900 w-full"
+    >
+      <center>
+        <h1 className="text-5xl max-[400px]:text-4xl font-bold text-white font-sans m-5">
+          PRO<span className="text-yellow-400">JECTS</span>
+        </h1>
+      </center>
+
+      <div className="w-full flex justify-around items-center max-[768px]:flex-col max-[1400px]:w-[100%]">
+        <Link href={"https://areebcalc.netlify.app/"} target="_blank">
+          <div className="h-[60vh] w-[27rem] max-[786px]:h-[60vh] max-[768px]:h-[90vh] max-[768px]:w-[20rem] max-[1000px]:w-[30vw] max-[850px]:w-[15rem] shadow-black max-[400px]:w-[18rem] max-[400px]:h-[70vh] max-[1400px]:w-[20rem] border-yellow-900 shadow-2xl flex hover:scale-[0.9] transition-all duration-[1s] items-center overflow-hidden flex-col bg-red-700 rounded-[2rem] my-7">
+            <div className="w-full h-full overflow-hidden bg-cyan-950">
+              <Image
+                src={calc}
+                alt=""
+                width={500}
+                height={500}
+                className="w-full h-full"
+              />
+            </div>
+            {/* <button className='m-10 p-3 hover:scale-110 transition-all duration-[1s] bg-slate-950 text-amber-950 font-bold font-sans rounded-[1rem] text-xl'>Weather traker</button> */}
+          </div>
+        </Link>
+        <Link href={"https://areebixweather.netlify.app/"} target="_blank">
+          <div className="h-[60vh] w-[27rem] max-[786px]:h-[60vh] max-[768px]:h-[90vh] max-[768px]:w-[20rem] max-[1000px]:w-[30vw] max-[850px]:w-[15rem] shadow-black max-[400px]:w-[18rem] max-[400px]:h-[70vh] max-[1400px]:w-[20rem] border-yellow-900 shadow-2xl flex hover:scale-[0.9] transition-all duration-[1s] items-center overflow-hidden flex-col bg-red-700 rounded-[2rem] my-7">
+            <div className="w-full h-full overflow-hidden bg-cyan-950">
+              <Image
+                src={weather}
+                alt=""
+                width={500}
+                height={500}
+                className="w-full h-full"
+              />
+            </div>
+            {/* <button className='m-10 p-3 hover:scale-110 transition-all duration-[1s] bg-slate-950 text-amber-950 font-bold font-sans rounded-[1rem] text-xl'>Weather traker</button> */}
+          </div>
+        </Link>
+        <Link href={"https://areebixtable.netlify.app/"} target="_blank">
+          <div className="h-[60vh] w-[27rem] max-[786px]:h-[60vh] max-[768px]:h-[90vh] max-[768px]:w-[20rem] max-[1000px]:w-[30vw] max-[850px]:w-[15rem] shadow-black max-[400px]:w-[18rem] max-[400px]:h-[70vh] max-[1400px]:w-[20rem] border-yellow-900 shadow-2xl flex hover:scale-[0.9] transition-all duration-[1s] items-center overflow-hidden flex-col bg-red-700 rounded-[2rem] my-7">
+            <div className="w-full h-full overflow-hidden bg-cyan-950">
+              <Image
+                src={table}
+                alt=""
+                width={500}
+                height={500}
+                className="w-full h-full"
+              />
+            </div>
+            {/* <button className='m-10 p-3 hover:scale-110 transition-all duration-[1s] bg-slate-950 text-amber-950 font-bold font-sans rounded-[1rem] text-xl'>Weather traker</button> */}
+          </div>
+        </Link>
+      </div>
+
+
+      <div className="w-full flex justify-around items-center max-[768px]:flex-col max-[1400px]:w-[100%]">
+        <Link href={"https://areebixbeat.netlify.app/"} target="_blank">
+          <div className="h-[60vh] w-[27rem] max-[786px]:h-[60vh] max-[768px]:h-[90vh] max-[768px]:w-[20rem] max-[1000px]:w-[30vw] max-[850px]:w-[15rem] shadow-black max-[400px]:w-[18rem] max-[400px]:h-[70vh] max-[1400px]:w-[20rem] border-yellow-900 shadow-2xl flex hover:scale-[0.9] transition-all duration-[1s] items-center overflow-hidden flex-col bg-red-700 rounded-[2rem] my-7">
+            <div className="w-full h-full overflow-hidden bg-cyan-950">
+              <Image
+                src={music}
+                alt=""
+                width={500}
+                height={500}
+                className="w-full h-full"
+              />
+            </div>
+            {/* <button className='m-10 p-3 hover:scale-110 transition-all duration-[1s] bg-slate-950 text-amber-950 font-bold font-sans rounded-[1rem] text-xl'>Weather traker</button> */}
+          </div>
+        </Link>
+        <Link href={"https://tictapper.netlify.app/"} target="_blank">
+          <div className="h-[60vh] w-[27rem] max-[786px]:h-[60vh] max-[768px]:h-[90vh] max-[768px]:w-[20rem] max-[1000px]:w-[30vw] max-[850px]:w-[15rem] shadow-black max-[400px]:w-[18rem] max-[400px]:h-[70vh] max-[1400px]:w-[20rem] border-yellow-900 shadow-2xl flex hover:scale-[0.9] transition-all duration-[1s] items-center overflow-hidden flex-col bg-red-700 rounded-[2rem] my-7">
+            <div className="w-full h-full overflow-hidden bg-cyan-950">
+              <Image
+                src={tic}
+                alt=""
+                width={500}
+                height={500}
+                className="w-full h-full"
+              />
+            </div>
+            {/* <button className='m-10 p-3 hover:scale-110 transition-all duration-[1s] bg-slate-950 text-amber-950 font-bold font-sans rounded-[1rem] text-xl'>Weather traker</button> */}
+          </div>
+        </Link>
+        <Link href={"https://areebixexpense.netlify.app/"} target="_blank">
+          <div className="h-[60vh] w-[27rem] max-[786px]:h-[60vh] max-[768px]:h-[90vh] max-[768px]:w-[20rem] max-[1000px]:w-[30vw] max-[850px]:w-[15rem] shadow-black max-[400px]:w-[18rem] max-[400px]:h-[70vh] max-[1400px]:w-[20rem] border-yellow-900 shadow-2xl flex hover:scale-[0.9] transition-all duration-[1s] items-center overflow-hidden flex-col bg-red-700 rounded-[2rem] my-7">
+            <div className="w-full h-full overflow-hidden bg-cyan-950">
+              <Image
+                src={expanse}
+                alt=""
+                width={500}
+                height={500}
+                className="w-full h-full"
+              />
+            </div>
+            {/* <button className='m-10 p-3 hover:scale-110 transition-all duration-[1s] bg-slate-950 text-amber-950 font-bold font-sans rounded-[1rem] text-xl'>Weather traker</button> */}
+          </div>
+        </Link>
+      </div>
+
+
+      <div className="w-full flex justify-around items-center max-[768px]:flex-col max-[1400px]:w-[100%]">
+        <Link href={"https://wingseat.vercel.app/"} target="_blank">
+          <div className="h-[60vh] w-[27rem] max-[786px]:h-[60vh] max-[768px]:h-[90vh] max-[768px]:w-[20rem] max-[1000px]:w-[30vw] max-[850px]:w-[15rem] shadow-black border-[0rem] max-[400px]:w-[18rem] max-[400px]:h-[70vh] max-[1400px]:w-[20rem] border-yellow-90 shadow-2xl flex hover:scale-[0.9] transition-all duration-[1s] items-center overflow-hidden flex-col bg-red-700 rounded-[2rem] my-7">
+            <div className="w-full h-full overflow-hidden bg-cyan-950">
+              <Image
+                src={wing}
+                alt=""
+                width={500}
+                height={500}
+                className="w-full h-full"
+              />
+            </div>
+            {/* <button className='m-10 p-3 hover:scale-110 transition-all duration-[1s] bg-slate-950 text-amber-950 font-bold font-sans rounded-[1rem] text-xl'>Weather traker</button> */}
+          </div>
+        </Link>
+        <Link href={"https://aspire-academy-theta.vercel.app/"} target="_blank">
+          <div className="h-[60vh] w-[27rem] max-[786px]:h-[60vh] max-[768px]:h-[90vh] max-[768px]:w-[20rem] max-[1000px]:w-[30vw] max-[850px]:w-[15rem] shadow-black border-[0rem] max-[400px]:w-[18rem] max-[400px]:h-[70vh] max-[1400px]:w-[20rem] border-yellow-90 shadow-2xl flex hover:scale-[0.9] transition-all duration-[1s] items-center overflow-hidden flex-col bg-red-700 rounded-[2rem] my-7">
+            <div className="w-full h-full overflow-hidden bg-cyan-950">
+              <Image
+                src={edu}
+                alt=""
+                width={500}
+                height={500}
+                className="w-full h-full"
+              />
+            </div>
+            {/* <button className='m-10 p-3 hover:scale-110 transition-all duration-[1s] bg-slate-950 text-amber-950 font-bold font-sans rounded-[1rem] text-xl'>Weather traker</button> */}
+          </div>
+        </Link>
+        <Link href={"https://resuminator.netlify.app/"} target="_blank">
+          <div className="h-[60vh] w-[27rem] max-[786px]:h-[60vh] max-[768px]:h-[90vh] max-[768px]:w-[20rem] max-[1000px]:w-[30vw] max-[850px]:w-[15rem] shadow-black border-[0rem] max-[400px]:w-[18rem] max-[400px]:h-[70vh] max-[1400px]:w-[20rem] border-yellow-90 shadow-2xl flex hover:scale-[0.9] transition-all duration-[1s] items-center overflow-hidden flex-col bg-red-700 rounded-[2rem] my-7">
+            <div className="w-full h-full overflow-hidden bg-cyan-950">
+              <Image
+                src={cv}
+                alt=""
+                width={500}
+                height={500}
+                className="w-full h-full"
+              />
+            </div>
+            {/* <button className='m-10 p-3 hover:scale-110 transition-all duration-[1s] bg-slate-950 text-amber-950 font-bold font-sans rounded-[1rem] text-xl'>Weather traker</button> */}
+          </div>
+        </Link>
+      </div>
+     
+    </div>
+  );
+};
+
+export default Projects;
