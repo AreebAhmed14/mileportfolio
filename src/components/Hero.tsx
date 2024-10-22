@@ -3,7 +3,7 @@ import { RxLinkedinLogo } from "react-icons/rx";
 import { AiFillInstagram } from "react-icons/ai";
 import { FaSquareGithub } from "react-icons/fa6";
 import Image from "next/image";
-import me from "../public/static/newme.jpg";
+// import me from "../public/static/newme.jpg";
 import Link from "next/link";
 // import mycv from "../public/mycv.pdf/"
 
@@ -39,9 +39,9 @@ const Hero = () => {
           </button>
         </Link>
       </div>
-      <div className="flex justify-center flex-col max-[850px]:m-7 max-[850px]:w-[25rem] max-[850px]:h-[70vh] h-[60vh] w-[27rem] max-[1100px]:w-[22rem] max-[930px]:w-[20rem] max-[480px]:w-[20rem] shadow-black max-[480px]:h-[65vh] border-[0.5rem] max-[400px]:w-[17rem] max-[400px]:h-[57vh] overflow-hidden border-yellow-900 shadow-2xl rounded-[50%] bg-red-700">
+      <div className="flex justify-center flex-col max-[850px]:m-7 max-[850px]:w-[25rem] max-[850px]:h-[70vh] h-[62vh] w-[25rem] max-[1100px]:w-[22rem] max-[930px]:w-[20rem] max-[480px]:w-[20rem] shadow-black max-[480px]:h-[65vh] border-[0.5rem] max-[400px]:w-[17rem] max-[400px]:h-[57vh] overflow-hidden border-yellow-900 shadow-2xl rounded-[50%] bg-red-700">
         <Image
-          src={me}
+          src={"/static/newme.jpg"}
           alt=""
           width={500}
           height={500}

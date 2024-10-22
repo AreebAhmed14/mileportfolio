@@ -1,14 +1,14 @@
 import React from "react";
 import Image from "next/image";
-import calc from "../public/static/calc.jpg";
-import weather from "../public/static/weather.jpg";
-import table from "../public/static/table.jpg";
-import music from "../public/static/music.jpg";
-import tic from "../public/static/tic.jpg";
-import expanse from "../public/static/expanse.jpg";
-import cv from "../public/static/cv.jpg";
-import edu from "../public/static/edu.jpg";
-import wing from "../public/static/wing.jpg";
+//  calc from "../";
+// import weather from "../public/static/weather.jpg";
+// import table from "../public/static/table.jpg";
+// import music from "../public/static/music.jpg";
+// import tic from "../public/static/tic.jpg";
+// import expanse from "../public/static/expanse.jpg";
+// import cv from "../public/static/cv.jpg";
+// import edu from "../public/static/edu.jpg";
+// import wing from "../public/static/wing.jpg";
 import Link from "next/link";
 
 const Projects = () => {
@@ -28,7 +28,7 @@ const Projects = () => {
           <div className="h-[60vh] w-[27rem] max-[786px]:h-[60vh] max-[768px]:h-[90vh] max-[768px]:w-[20rem] max-[1000px]:w-[30vw] max-[850px]:w-[15rem] shadow-black max-[400px]:w-[18rem] max-[400px]:h-[70vh] max-[1400px]:w-[20rem] border-yellow-900 shadow-2xl flex hover:scale-[0.9] transition-all duration-[1s] items-center overflow-hidden flex-col bg-red-700 rounded-[2rem] my-7">
             <div className="w-full h-full overflow-hidden bg-cyan-950">
               <Image
-                src={calc}
+                src={"/static/calc.jpg"}
                 alt=""
                 width={500}
                 height={500}
@@ -42,7 +42,7 @@ const Projects = () => {
           <div className="h-[60vh] w-[27rem] max-[786px]:h-[60vh] max-[768px]:h-[90vh] max-[768px]:w-[20rem] max-[1000px]:w-[30vw] max-[850px]:w-[15rem] shadow-black max-[400px]:w-[18rem] max-[400px]:h-[70vh] max-[1400px]:w-[20rem] border-yellow-900 shadow-2xl flex hover:scale-[0.9] transition-all duration-[1s] items-center overflow-hidden flex-col bg-red-700 rounded-[2rem] my-7">
             <div className="w-full h-full overflow-hidden bg-cyan-950">
               <Image
-                src={weather}
+                src={"/static/weather.jpg"}
                 alt=""
                 width={500}
                 height={500}
@@ -56,7 +56,7 @@ const Projects = () => {
           <div className="h-[60vh] w-[27rem] max-[786px]:h-[60vh] max-[768px]:h-[90vh] max-[768px]:w-[20rem] max-[1000px]:w-[30vw] max-[850px]:w-[15rem] shadow-black max-[400px]:w-[18rem] max-[400px]:h-[70vh] max-[1400px]:w-[20rem] border-yellow-900 shadow-2xl flex hover:scale-[0.9] transition-all duration-[1s] items-center overflow-hidden flex-col bg-red-700 rounded-[2rem] my-7">
             <div className="w-full h-full overflow-hidden bg-cyan-950">
               <Image
-                src={table}
+                src={"/static/table.jpg"}
                 alt=""
                 width={500}
                 height={500}
@@ -74,7 +74,7 @@ const Projects = () => {
           <div className="h-[60vh] w-[27rem] max-[786px]:h-[60vh] max-[768px]:h-[90vh] max-[768px]:w-[20rem] max-[1000px]:w-[30vw] max-[850px]:w-[15rem] shadow-black max-[400px]:w-[18rem] max-[400px]:h-[70vh] max-[1400px]:w-[20rem] border-yellow-900 shadow-2xl flex hover:scale-[0.9] transition-all duration-[1s] items-center overflow-hidden flex-col bg-red-700 rounded-[2rem] my-7">
             <div className="w-full h-full overflow-hidden bg-cyan-950">
               <Image
-                src={music}
+                src={"/static/music.jpg"}
                 alt=""
                 width={500}
                 height={500}
@@ -88,7 +88,7 @@ const Projects = () => {
           <div className="h-[60vh] w-[27rem] max-[786px]:h-[60vh] max-[768px]:h-[90vh] max-[768px]:w-[20rem] max-[1000px]:w-[30vw] max-[850px]:w-[15rem] shadow-black max-[400px]:w-[18rem] max-[400px]:h-[70vh] max-[1400px]:w-[20rem] border-yellow-900 shadow-2xl flex hover:scale-[0.9] transition-all duration-[1s] items-center overflow-hidden flex-col bg-red-700 rounded-[2rem] my-7">
             <div className="w-full h-full overflow-hidden bg-cyan-950">
               <Image
-                src={tic}
+                src={"/static/tic.jpg"}
                 alt=""
                 width={500}
                 height={500}
@@ -102,7 +102,7 @@ const Projects = () => {
           <div className="h-[60vh] w-[27rem] max-[786px]:h-[60vh] max-[768px]:h-[90vh] max-[768px]:w-[20rem] max-[1000px]:w-[30vw] max-[850px]:w-[15rem] shadow-black max-[400px]:w-[18rem] max-[400px]:h-[70vh] max-[1400px]:w-[20rem] border-yellow-900 shadow-2xl flex hover:scale-[0.9] transition-all duration-[1s] items-center overflow-hidden flex-col bg-red-700 rounded-[2rem] my-7">
             <div className="w-full h-full overflow-hidden bg-cyan-950">
               <Image
-                src={expanse}
+                src={"/static/expanse.jpg"}
                 alt=""
                 width={500}
                 height={500}
@@ -120,7 +120,7 @@ const Projects = () => {
           <div className="h-[60vh] w-[27rem] max-[786px]:h-[60vh] max-[768px]:h-[90vh] max-[768px]:w-[20rem] max-[1000px]:w-[30vw] max-[850px]:w-[15rem] shadow-black border-[0rem] max-[400px]:w-[18rem] max-[400px]:h-[70vh] max-[1400px]:w-[20rem] border-yellow-90 shadow-2xl flex hover:scale-[0.9] transition-all duration-[1s] items-center overflow-hidden flex-col bg-red-700 rounded-[2rem] my-7">
             <div className="w-full h-full overflow-hidden bg-cyan-950">
               <Image
-                src={wing}
+                src={"/static/wing.jpg"}
                 alt=""
                 width={500}
                 height={500}
@@ -134,7 +134,7 @@ const Projects = () => {
           <div className="h-[60vh] w-[27rem] max-[786px]:h-[60vh] max-[768px]:h-[90vh] max-[768px]:w-[20rem] max-[1000px]:w-[30vw] max-[850px]:w-[15rem] shadow-black border-[0rem] max-[400px]:w-[18rem] max-[400px]:h-[70vh] max-[1400px]:w-[20rem] border-yellow-90 shadow-2xl flex hover:scale-[0.9] transition-all duration-[1s] items-center overflow-hidden flex-col bg-red-700 rounded-[2rem] my-7">
             <div className="w-full h-full overflow-hidden bg-cyan-950">
               <Image
-                src={edu}
+                src={"/static/edu.jpg"}
                 alt=""
                 width={500}
                 height={500}
@@ -148,7 +148,7 @@ const Projects = () => {
           <div className="h-[60vh] w-[27rem] max-[786px]:h-[60vh] max-[768px]:h-[90vh] max-[768px]:w-[20rem] max-[1000px]:w-[30vw] max-[850px]:w-[15rem] shadow-black border-[0rem] max-[400px]:w-[18rem] max-[400px]:h-[70vh] max-[1400px]:w-[20rem] border-yellow-90 shadow-2xl flex hover:scale-[0.9] transition-all duration-[1s] items-center overflow-hidden flex-col bg-red-700 rounded-[2rem] my-7">
             <div className="w-full h-full overflow-hidden bg-cyan-950">
               <Image
-                src={cv}
+                src={"/static/cv.jpg"}
                 alt=""
                 width={500}
                 height={500}

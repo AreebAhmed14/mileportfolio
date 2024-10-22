@@ -8,9 +8,9 @@ const Footer = () => {
     <div className="w-full h-[40vh] flex justify-around items-center bg-yellow-400 max-[900px]:flex-col max-[1150px]:h-auto">
       <div>
         <h1 className="text-5xl max-[1150px]:text-4xl max-[700px]:text-5xl max-[900px]:text-6xl max-[560px]:text-4xl max-[900px]:m-7 font-sans font-bold text-yellow-900">
-          AREEBIX INFO
+        <span className="text-white">AR</span>EEB<span className="text-white">IX IN</span>FO
           <p className=" text-xl font-sans font-bold max-[560px]:text-[1rem] text-white">
-          Simplicity Meets Creativity
+          Simplicity Meets <span className="text-yellow-900">Creativity</span>
             </p>
         </h1>
       </div>
