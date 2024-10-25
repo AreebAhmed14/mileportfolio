@@ -21,6 +21,7 @@ const Header = () => {
     id="home"
     className="w-full h-[15vh] flex justify-between items-center bg-yellow-900"
   >
+    
     <h1 className="ml-5 text-[2.5rem] max-[809px]:text-[2.1rem] max-[400px]:text-[2rem] max-[400px]:ml-3 max-[350px]:text-[1.8rem] font-sans text-white font-bold">
      <span className="text-yellow-400">AR</span>EEB<span className="text-yellow-400">IX IN</span>FO
     </h1>
